@@ -7,7 +7,7 @@ st.title("💰 Simulador de Empréstimo")
 st.subheader("Preencha os dados abaixo:")
 
 # 👉 Novo campo: Nome da linha de crédito
-nome_linha = st.text_input("Nome da linha de crédito (ex.: Empréstimo Pessoal)")
+nome_linha = st.text_input("Nome da linha de crédito (ex.: BB Crédito Automático)")
 
 valor_total = st.number_input("Valor total do crédito (R$)", min_value=0.0, format="%.2f")
 
